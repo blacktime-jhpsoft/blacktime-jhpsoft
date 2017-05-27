@@ -1033,8 +1033,8 @@
 			background-repeat: no-repeat;
 			background-size: cover;
 			content: '';
-			display: block;
-			height: 15em;
+			display: none;
+			height: 0em;
 			width: 100%;
 		}
 	}
@@ -1154,7 +1154,7 @@
 	}
 
 /* Medium */
-
+/*
 	#titleBar {
 		display: none;
 	}
@@ -1228,7 +1228,7 @@
 
 			#one {
 				&:before {
-					height: 10em;
+					height: 0em;
 				}
 			}
 
@@ -1327,7 +1327,7 @@
 			}
 
 	}
-
+*/
 /* Small */
 
 	@include breakpoint(small) {
@@ -1456,7 +1456,7 @@
 
 			#one {
 				&:before {
-					height: 7em;
+					height: 0em;
 				}
 			}
 
@@ -1481,7 +1481,7 @@
 			}
 
 		/* Off-Canvas Navigation */
-
+/*
 			#titleBar {
 				.toggle {
 					height: 4em;
@@ -1505,7 +1505,7 @@
 						}
 					}
 				}
-			}
+			}*/
 
 	}
 

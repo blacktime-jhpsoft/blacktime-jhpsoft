@@ -1,4 +1,4 @@
-@import url("font-awesome.min.css");
+﻿@import url("font-awesome.min.css");
 @import url("https://fonts.googleapis.com/css?family=Lato:400,400italic,700,700italic|Source+Code+Pro:400");
 
 /*
@@ -56,6 +56,9 @@
 		box-sizing: border-box;
 	}
 
+    #wrapper {
+    padding-right: 0px;
+    }
 /* Containers */
 
 	.container {
@@ -2580,7 +2583,7 @@
 
 	#wrapper {
 		background: #fff;
-		padding-right: 23em;
+        padding-right: 0px;
 	}
 
 /* Main */
@@ -2605,8 +2608,8 @@
 		background-repeat: no-repeat;
 		background-size: cover;
 		content: '';
-		display: block;
-		height: 15em;
+		display: none;
+		height: 0em;
 		width: 100%;
 	}
 
@@ -2671,7 +2674,7 @@
 		/* Wrapper */
 
 			#wrapper {
-				padding-right: 21em;
+				/*padding-right: 21em;*/
 			}
 
 		/* Main */
@@ -2701,7 +2704,7 @@
 		/* Wrapper */
 
 			#wrapper {
-				padding-right: 20em;
+				padding-right: 0;
 			}
 
 	}
@@ -2779,17 +2782,17 @@
 				-webkit-transition: -webkit-transform 0.5s ease;
 				-ms-transition: -ms-transform 0.5s ease;
 				transition: transform 0.5s ease;
-				padding: 44px 0 1px 0;
+				padding: 0 0 1px 0;
 			}
 
 		/* One */
 
 			#one:before {
-				height: 10em;
+				height: 0em;
 			}
 
 		/* Off-Canvas Navigation */
-
+/*
 			#titleBar {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
@@ -2875,6 +2878,7 @@
 				-ms-transform: translateX(0);
 				transform: translateX(0);
 			}
+			*/
 
 	}
 
@@ -2983,7 +2987,7 @@
 		/* One */
 
 			#one:before {
-				height: 7em;
+				height: 0em;
 			}
 
 		/* Footer */
