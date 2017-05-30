@@ -1,0 +1,33 @@
+@font-face { 
+    font-family: 'ITCAvantGardeStd-XLtCn'; 
+    src: url('./css/ITCAvantGardeStd-XLtCn.otf') format('opentype'); 
+}
+
+
+body {
+  background-color : black;
+  margin: auto;
+}
+
+span {
+  display : table;
+  margin-left : auto;
+  margin-right : auto;
+}
+
+.time {
+  font-family: ITCAvantGardeStd-XLtCn;
+  font-size: 7em;
+  line-height: 100vh;
+  text-align: center;
+  display : inline;
+  margin : auto;
+}
+
+#hour {
+  color : white;
+}
+
+#min {
+  color : #87e1ff;
+}
