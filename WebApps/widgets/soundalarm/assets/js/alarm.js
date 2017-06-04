@@ -1,6 +1,6 @@
-// Alarm sound
+﻿// Alarm sound
 
-var alarmSound = new Audio('assets/06_Urban_Beat.mp3');
+var alarmSound = new Audio('https://soundcloud-save.com/d/wrohisvbg1mi/beat');
 alarmSound.volume = 0.3;
 
 
