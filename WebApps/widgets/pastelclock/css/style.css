@@ -17,7 +17,7 @@ span {
 
 .time {
   font-family: ITCAvantGardeStd-XLtCn;
-  font-size: 40vw;
+  font-size: 30vmin;
   /*line-height: 50vh;*/
   text-align: center;
   display : inline;
